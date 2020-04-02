@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="7" total="11" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="124" started-at="2020-02-16T14:02:59 CET" finished-at="2020-02-16T14:02:59 CET">
+    <groups>
+      <group name="smoke">
+        <method signature="TestNG1.Demo2()[pri:0, instance:test.TestNG1@2b2948e2]" name="Demo2" class="test.TestNG1"/>
+        <method signature="TestNG3.MobileloginCarLoan()[pri:0, instance:test.TestNG3@57536d79]" name="MobileloginCarLoan" class="test.TestNG3"/>
+        <method signature="TestNG4.LoginAPIHomeLoan()[pri:0, instance:test.TestNG4@6ddf90b0]" name="LoginAPIHomeLoan" class="test.TestNG4"/>
+        <method signature="TestNG4.WebloginHomeLoan()[pri:0, instance:test.TestNG4@6ddf90b0]" name="WebloginHomeLoan" class="test.TestNG4"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="124" started-at="2020-02-16T14:02:59 CET" finished-at="2020-02-16T14:02:59 CET">
+      <class name="test.TestNG4">
+        <test-method status="PASS" signature="LoginAPIHomeLoan()[pri:0, instance:test.TestNG4@6ddf90b0]" name="LoginAPIHomeLoan" duration-ms="3" started-at="2020-02-16T14:02:59 CET" finished-at="2020-02-16T14:02:59 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeLoan -->
+        <test-method status="PASS" signature="WebloginHomeLoan()[pri:0, instance:test.TestNG4@6ddf90b0]" name="WebloginHomeLoan" duration-ms="6" started-at="2020-02-16T14:02:59 CET" finished-at="2020-02-16T14:02:59 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+      </class> <!-- test.TestNG4 -->
+      <class name="test.TestNG3">
+        <test-method status="PASS" signature="MobileloginCarLoan()[pri:0, instance:test.TestNG3@57536d79]" name="MobileloginCarLoan" duration-ms="3" started-at="2020-02-16T14:02:59 CET" finished-at="2020-02-16T14:02:59 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginCarLoan -->
+      </class> <!-- test.TestNG3 -->
+      <class name="test.TestNG1">
+        <test-method status="FAIL" signature="Demo2()[pri:0, instance:test.TestNG1@2b2948e2]" name="Demo2" duration-ms="20" started-at="2020-02-16T14:02:59 CET" finished-at="2020-02-16T14:02:59 CET">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect to find [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect to find [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at test.TestNG1.Demo2(TestNG1.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2 -->
+      </class> <!-- test.TestNG1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
